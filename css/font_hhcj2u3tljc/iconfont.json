@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12036805",
+      "name": "duihao",
+      "font_class": "duihao-copy",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "17258644",
+      "name": "cuohao",
+      "font_class": "cuohao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}

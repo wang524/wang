@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/verify.css">
+    <link rel="stylesheet" href="./css/font_hhcj2u3tljc/iconfont.css">
+</head>
+
+<body>
+    <div class="log">
+        <div class="log-little">
+            <a href="" class="log-off"></a>
+            <div class="log-header">
+                <!-- <img src="./images/gorilla_1f98d.png" alt=""> -->
+            </div>
+            <div class="log-pass">
+                <div class="login">
+                    <div class="log-with-password">
+                        <a href="javascript:void(0);">密码登录</a>
+                        <a href="javascript:void(0);" style="display: none;">免费注册</a>
+                    </div>
+                    <div class="input">
+                        <div class="input-username">
+                            <input type="text" placeholder="请输入会员名" class="username">
+                            <span class="iconfont success">&#xe501;</span>
+                            <span class="iconfont defult">&#xe609;</span>
+                            <div class="kuang kuang-user">
+                                <p>4-16位,数字或字母</p>
+                            </div>
+                        </div>
+                        <div class="input-username">
+                            <input type="text" placeholder="请输入登录密码" class="password">
+                            <span class="iconfont success">&#xe501;</span>
+                            <span class="iconfont defult">&#xe609;</span>
+                            <div class="kuang kuang-pass">
+                                <p>6-18位,字母开头，只能包含字母、数字、下划线</p>
+                            </div>
+                        </div>
+                        <div class="input-username" style="display: none;">
+                            <input type="text" placeholder="请输入手机号码" class="phonenumber">
+                            <span class="iconfont success">&#xe501;</span>
+                            <span class="iconfont defult">&#xe609;</span>
+                        </div>
+                        <div class="input-username" style="display: none;">
+                            <input type="text" placeholder="请输入邮箱" class="email">
+                            <span class="iconfont success">&#xe501;</span>
+                            <span class="iconfont defult">&#xe609;</span>
+                        </div>
+                        <div class="log-button">
+                            <button class="login-button">登录</button>
+                            <button class="login-button" style="display: none;">免费注册</button>
+                            <p>免费注册</p>
+                            <p style="display: none;">登录</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div id="mpanel4" style="margin: auto; display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/verify.js"></script>
+    <script src="./js/log.js"></script>
+</body>
+
+</html>

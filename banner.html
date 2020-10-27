@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tmall.com</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <a href="" class="top-a">
+    <img src="./images/顶部链接.png" alt="">
+  </a>
+  <div class="top-nav">
+    <div class="top-nav-lit bx">
+      <div class="login-info left">
+        <span>喵，欢迎来天猫</span>
+        <span>登录 / 注册</span>
+      </div>
+      <ul class="sn-menu right">
+        <li>我的淘宝</li>
+        <li>购物车</li>
+        <li>手机版
+          <div class="phone-ewm" style="display: none;">
+            <div class="ewm"></div>
+            <p></p>
+            <b></b>
+          </div>
+        </li>
+        <li>淘宝网</li>
+        <script>
+          $(".sn-menu li").eq(2).mouseenter(function () {
+            $(".phone-ewm").fadeIn();
+          })
+          $(".sn-menu li").eq(2).mouseleave(function () {
+            $(".phone-ewm").fadeOut();
+          })
+        </script>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 搜索 -->
+  <div class="top-search bx cf">
+    <div class="double left">
+      <a href="">
+        <img src="./images/双十一.gif" alt="">
+      </a>
+    </div>
+    <div class="search left">
+      <div class="clearfix">
+        <input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+        <button>搜索</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-static">
+    <div class="bx">
+      <div class="static-logo left"></div>
+      <div class="static-search left">
+        <input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+        <button>搜索</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="bx cf">
+    <div class="group-wrap left">
+      <a href="" class="group-first">
+        <p>运动户外</p>
+        <p>大牌不止五折</p>
+        <img src="./images/自行车.png" alt="">
+      </a>
+      <a href="" class="group-second mendian">
+        <p>同城门店</p>
+        <p>爆款五折起</p>
+        <img src="./images/椅子.png" alt="">
+      </a>
+      <a href="" class="group-second haohuo">
+        <p>同城门店</p>
+        <p>爆款五折起</p>
+        <img src="./images/白椅子.png" alt="">
+      </a>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide right" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner contentBox" role="listbox">
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="brand-list bx">
+    <ul class="init">
+      <li>
+        <img src="./images/图1.webp" alt="">
+        <a href="">
+          <div class="coupon"><span>Schneider Electric/施耐德</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图2.webp" alt="">
+        <a href="">
+          <div class="coupon"><span>ENFINITAS/蓝臻</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图3.png" alt="">
+        <a href="">
+          <div class="coupon"><span>优惠券 ￥300</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图4.png" alt="">
+        <a href="">
+          <div class="coupon"><span>优惠券 ￥100</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图5.png" alt="">
+        <a href="">
+          <div class="coupon"><span>ROYAL CANIN/皇家</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图6.png" alt="">
+        <a href="">
+          <div class="coupon"><span>LEAGUE OF LEGENDS/英雄联盟</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图7.png" alt="">
+        <a href="">
+          <div class="coupon"><span>上汽大众</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图8.webp" alt="">
+        <a href="">
+          <div class="coupon"><span>优惠券 ￥200</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <img src="./images/图9.webp" alt="">
+        <a href="">
+          <div class="coupon"><span>scout</span></div>
+          <div class="enter"><span>点击进入</span></div>
+        </a>
+      </li>
+      <li>
+        <span class="init-more">更多>></span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 底部 -->
+  <div class="bottom">
+    <div class="bottom-let bx">
+      <div class="tmall-ensure"></div>
+      <div class="tmall-desc">
+        <div class="ensure">
+          <dt><span>购物指南</span></dt>
+          <dd>
+            <a href="">免费注册</a>
+            <a href="">开通支付宝</a>
+            <a href="">支付宝充值</a>
+          </dd>
+        </div>
+        <div class="ensure">
+          <dt><span>天猫保障</span></dt>
+          <dd>
+            <a href="">发票保障</a>
+            <a href="">售后规则</a>
+            <a href="">缺货赔付</a>
+          </dd>
+        </div>
+        <div class="ensure">
+          <dt><span>支付方式</span></dt>
+          <dd>
+            <a href="">快捷支付</a>
+            <a href="">信用卡</a>
+            <a href="">余额宝</a>
+            <a href="">蚂蚁花呗</a>
+            <a href="">货到付款</a>
+          </dd>
+        </div>
+        <div class="ensure">
+          <dt><span>商家服务</span></dt>
+          <dd>
+            <a href="">天猫规则</a>
+            <a href="">商家入驻</a>
+            <a href="">商家中心</a>
+            <a href="">天猫智库</a>
+            <a href="">物流服务</a>
+            <a href="">喵言喵语</a>
+            <a href="">运营服务</a>
+          </dd>
+        </div>
+        <div class="ensure">
+          <dt><span>手机天猫</span></dt>
+          <dd>
+            <a href="" id="phone-miao">
+              <img src="./images/底部二维码.png" alt="">
+            </a>
+          </dd>
+        </div>
+      </div>
+      <div class="bottom-bo">
+        <ul>
+          <li>关于天猫</li>
+          <li>帮助中心</li>
+          <li>开放平台</li>
+          <li>诚聘英才</li>
+          <li>联系我们</li>
+          <li>网站合法</li>
+          <li>法律声明</li>
+          <li>隐私权政策</li>
+          <li>知识产权</li>
+          <li>廉政举报</li>
+          <li>规则意见征集</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/js.js"></script>
+</body>
+
+</html>
